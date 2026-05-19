@@ -2,7 +2,7 @@ const clientsContainer = document.getElementById('clients');
 const statusEl = document.getElementById('status');
 const errorEl = document.getElementById('error');
 const reloadBtn = document.getElementById('reloadBtn');
-const apiBaseUrl = 'http://localhost:8000';
+const apiBaseUrl = '';
 
 function renderClients(clients) {
   if (!Array.isArray(clients) || clients.length === 0) {
